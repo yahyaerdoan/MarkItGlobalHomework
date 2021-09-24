@@ -1,0 +1,92 @@
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">User Detail Form</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="row mb-2">
+          <label
+            class="col-sm-2 col-form-label col-form-label-sm col-form-label bol"
+            ><b>Name:</b>
+          </label>
+          <div class="col-sm-10">
+            <form type="text" class="form-control form-control-sm">
+              {{ user.name }}
+            </form>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <label class="col-sm-2 col-form-label col-form-label-sm"
+            ><b>User Name:</b></label
+          >
+          <div class="col-sm-10">
+            <form type="text" class="form-control form-control-sm">
+              {{ user.username }}
+            </form>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <label class="col-sm-2 col-form-label col-form-label-sm"
+            ><b>Street:</b>
+          </label>
+          <div class="col-sm-10">
+            <form type="text" class="form-control form-control-sm">
+              {{ user.address.street }}
+            </form>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <label class="col-sm-2 col-form-label col-form-label-sm"
+            ><b>City:</b>
+          </label>
+          <div class="col-sm-10">
+            <form type="text" class="form-control form-control-sm">
+              {{ user.address.city }}
+            </form>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <label class="col-sm-2 col-form-label col-form-label-sm">
+            <b>Company Name:</b>
+          </label>
+          <div class="col-sm-10">
+            <form type="text" class="form-control form-control-sm">
+              {{ user.company.name }}
+            </form>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <label class="col-sm-2 col-form-label col-form-label-sm">
+            <b>Catch Phrase:</b>
+          </label>
+          <div class="col-sm-10">
+            <form type="text" class="form-control form-control-sm">
+              {{ user.company.catchPhrase }}
+            </form>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <label class="col-sm-2 col-form-label col-form-label-sm">
+            <b>Phone:</b></label
+          >
+          <div class="col-sm-10">
+            <form type="text" class="form-control form-control-sm">{{user.phone}}</form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
