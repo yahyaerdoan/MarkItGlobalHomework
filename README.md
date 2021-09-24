@@ -44,3 +44,15 @@ Angular and Bostrap libraries were used in our project and were designed with Cu
 - Navbar menu added. Dropdown is opened and sing in and register commands are not active.
 - When we look at the footer area, there are four sections. These areas contain brief information about the project, contact addresses about the developer, and a newsletter subscription for the customer. In the last part of the footer, there are the e-mail addresses of the company and the developer.
 - In order to provide easier information to the system user, a search field has been added and is actively working.
+### About the Project Images
+- ![image](https://user-images.githubusercontent.com/77584301/134718719-e4787294-43ba-4322-abde-d6e3c33ee41c.png)
+- ![image](https://user-images.githubusercontent.com/77584301/134718784-e7df8001-5e5f-4bda-97f9-ddbef7bc065d.png)
+- ![image](https://user-images.githubusercontent.com/77584301/134718860-589ce699-2edc-4350-9261-944ffd6272fc.png)
+- ![image](https://user-images.githubusercontent.com/77584301/134718988-d5c9b945-02c1-4625-8799-d7e4058fa5ca.png)
+- ![image](https://user-images.githubusercontent.com/77584301/134719042-c6615437-9fed-4558-baa4-406b64439849.png)
+- ![image](https://user-images.githubusercontent.com/77584301/134719102-5ace54f5-dcaf-4260-b5c5-75eceeee61aa.png)
+- ![image](https://user-images.githubusercontent.com/77584301/134719160-ab0b69e3-509d-484c-bac5-a33112b4b4df.png)
+- ![image](https://user-images.githubusercontent.com/77584301/134719230-807ef3ad-10a1-4196-a9f8-ea964e0d5242.png)
+- ![image](https://user-images.githubusercontent.com/77584301/134719334-b74969b8-4038-4174-b12d-9090fdfa7ee5.png)
+
+
